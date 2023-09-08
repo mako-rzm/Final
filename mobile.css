@@ -1,12 +1,24 @@
-@media  screen and  (width >=1440px) {
-    
-}
+/*
+*   Ipads,Tablets,Mobile devices
+*/
+@media screen and (width <=768px) {
 
-@media screen and (widh <=400px) {
-
-    .header-nav-nav{
+    .header-nav-nav {
         display: none;
     }
 
+}
+
+/*
+* Desktop,large screens
+*/
+
+@media screen and (width <=1200px) {}
+
+/*
+* Extra large screens
+*/
+
+@media screen and (width > 1200px){
     
 }
