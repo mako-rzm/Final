@@ -32,21 +32,25 @@ header {
 
 
 .header-nav-title {
-
-    margin-right: 70px;
-
-}
-.header-nav-title1{
     border-radius: 23.5px;
-border: 1px solid #000;
-padding: 8px 28px;
+    padding: 8px 28px;
+    border: 1px solid #000;
+    margin-right: 20px;
 }
+
+.header-nav-title:hover {
+    background-color: #adada8;
+    color: #FFF;
+    transition: all 1s ease;
+}
+
+
 
 header h4 {
     width: 193px;
     height: 55.319px;
     color: #40413B;
-    
+
     font-size: 55px;
     ;
     letter-spacing: 2.75px;
@@ -62,35 +66,31 @@ header img {
     background: #C5C798;
 }
 
-.animation{
-    background-color: #FFF;
-}
-
-
-.animation:hover{
+.selected {
     background-color: #adada8;
     color: #FFF;
-    transition: background 1s ease;
 }
+
+
 
 .hero-imgs {
     width: 100%;
-    display: flex; 
+    display: flex;
     position: relative;
-    
+
 }
 
 .hero-imgs>img {
     width: 50%;
-    
+
 }
 
 .home-text {
-  width: 1223px;
+    width: 1223px;
     color: #40413B;
     text-align: center;
-   font-size: 55px;
-  line-height: 130%; 
+    font-size: 55px;
+    line-height: 130%;
     letter-spacing: 5.5px;
     position: absolute;
     top: 15%;
@@ -98,16 +98,16 @@ header img {
     left: 50%;
     transform: translate(-50%, 0);
     text-align: center;
-   
+
 }
 
 .home-join {
-   
+
     color: #40413B;
     text-align: center;
-   font-size: 35px;
+    font-size: 35px;
     line-height: 139%;
-   letter-spacing: 1.05px;
+    letter-spacing: 1.05px;
     position: absolute;
     top: 45%;
     font-size: 60px;
@@ -116,26 +116,27 @@ header img {
     text-align: center;
     stroke-width: 2px;
     stroke: #40413B;
-    
+
 }
 
 .welcome-text {
-    
-   color: #40413B;
+
+    color: #40413B;
     text-align: center;
     font-family: Sinhala MN;
     font-size: 96px;
     line-height: 139%;
     letter-spacing: 9.6px;
-  margin: 50px;
+    margin: 50px;
 }
 
 .text {
     text-align: center;
     color: #8d8787;
-    
+
 }
-.text-text{
+
+.text-text {
     letter-spacing: 9.6px;
     text-align: center;
     color: #8d8787;
@@ -143,27 +144,29 @@ header img {
 
 }
 
-.home-img{
+.home-img {
     display: flex;
     align-items: center;
     justify-content: center;
- 
-    
-    
-}
-.home-img1{
-   background:  lightgray 50% / cover no-repeat;
-    border: 2px solid #FFF;
-    padding: 10px;
-    margin: 40px;   
+
+
+
 }
 
-.home-img2{
-   background: lightgray 50% / cover no-repeat;
+.home-img1 {
+    background: lightgray 50% / cover no-repeat;
     border: 2px solid #FFF;
     padding: 10px;
-   
+    margin: 40px;
 }
+
+.home-img2 {
+    background: lightgray 50% / cover no-repeat;
+    border: 2px solid #FFF;
+    padding: 10px;
+
+}
+
 .cards-container {
     width: 100%;
     padding: 0 10px;
@@ -176,6 +179,7 @@ header img {
     flex-direction: column;
     width: 580px;
     margin-bottom: 30px;
+
 }
 
 .card>img {
@@ -208,14 +212,16 @@ header img {
     color: #FFF;
     cursor: pointer;
 }
-.product-animation{
+
+.product-animation {
     background-color: #E19B81;
     transition: all 0.5s ease;
 }
-.product-animation:hover{
+
+.product-animation:hover {
     width: 150px;
     background-color: #4b3730;
-    
+
 }
 
 .main-text-text {
@@ -244,9 +250,9 @@ header img {
     height: 33px;
     color: #000;
     text-align: center;
-   
+
     font-size: 25px;
-   
+
     line-height: 157.187%;
     text-transform: capitalize;
     margin: 0 auto;
@@ -341,10 +347,10 @@ header img {
     font-size: 45px;
     letter-spacing: 2.25px;
     padding: 120px 0 60px 0;
-     
+
 }
 
-.about-img{
+.about-img {
     display: flex;
     justify-content: space-between;
     margin: 40px;
@@ -352,7 +358,7 @@ header img {
 }
 
 .about-img img {
-   
+
     border-radius: 11px;
     background: #FFF;
     box-shadow: 0px 7px 8px 0px rgba(0, 0, 0, 0.25);
@@ -367,16 +373,16 @@ header img {
     line-height: 142.188%;
     letter-spacing: 5px;
     padding: 159px 14px 170px 90px;
-   
+
 }
 
 
-.contact-text-text{
+.contact-text-text {
     color: #000;
 }
 
 .contact-info p {
-    
+
     color: #FFF;
     text-align: center;
     font-size: 35px;
@@ -386,12 +392,11 @@ header img {
     background: #E19B81;
     box-shadow: 0px 10px 10px 1px rgba(0, 0, 0, 0.15);
     margin-bottom: 50px;
-   
+
 
 }
 
-.contact-info{
-  margin: 280px;
-    
-}
+.contact-info {
+    margin: 280px;
 
+}
